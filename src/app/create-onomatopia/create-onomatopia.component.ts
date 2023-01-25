@@ -6,6 +6,7 @@ import { Component, EventEmitter, Output } from '@angular/core';
   styleUrls: ['./create-onomatopia.component.css']
 })
 export class CreateOnomatopiaComponent {
+  
   newOnomatopia : string | undefined ;
 
   @Output() sendOnomatopiaToParent  : EventEmitter<string> = new EventEmitter();
