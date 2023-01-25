@@ -12,3 +12,4 @@ export class AppComponent {
 this.onomatopoeiaList.push( inserOno);
 }
 }
+// bsj
