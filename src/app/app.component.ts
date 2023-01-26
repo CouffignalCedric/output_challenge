@@ -7,9 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'output_challenge';
-  onomatopoeiaList : string [] = [];
+  onomatopiaList : string [] = [];
   onReceiveNewOnomatopia( inserOno : string){
-this.onomatopoeiaList.push( inserOno);
+this.onomatopiaList.push( inserOno);
 }
 }
-// bsj
